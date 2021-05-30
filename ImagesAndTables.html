@@ -1,37 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <style>
-            #table1{
-                background-color: chartreuse;
-                color: black;
-                width: 200px;
-                height: 100px;
-            }
-            #table2{
-                background-color:deepskyblue;
-                color: black;
-                width: 300px;
-                height: 100px;
-            }
-            #row1{
-                background-color: lime;
-            }
-            #row2{
-                background-color:mediumblue;
-            }
-        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" >
+        <title>Document</title>
+        <link rel="stylesheet" href="productstyle.css">
     </head>
-        <img src="nature.jpg" width="300" height="300" >
-        <table id="table1" border="5" >
-            <tr id="row1"> <th> S.No: </th> <th> Product </th> <th> Price </th></tr>
-            <tr> <td> 1 </td> <td>  DairyMilk </td> <td> Rs.50 </td></tr>
-            <tr> <td> 2 </td> <td> Kitkat </td> <td> Rs.20 </td>  </tr>
-        </table>
-        <br>
-        <table id="table2" border="5">
-            <tr id="row2"> <th> S.No: </th> <th> Product </th> <th> Price </th></tr>
-            <tr> <td> 1 </td> <td><i> Mysore Sandal </i> </td> <td> Rs.60 </td></tr>
-            <tr> <td> 2 </td> <td> <i> Rexsona </i></td> <td> Rs.80 </td>  </tr>
-        </table>
+    <body>
+        <div class="Products">
+            <div id="data">
+                <input type="text" id="sNo" placeholder="Enter serial number">
+                <input type="text" id="product" placeholder="Enter Product name">
+                <input type="text" id="price" placeholder="Enter price of the product">
+                <button>add</button>
+            </div>
+            <table>
+                <tr> <th> S.No: </th> <th> Product </th> <th> Price </th></tr>
+                <tr> <td> 1 </td> <td>  DairyMilk </td> <td> Rs.50 </td></tr>
+                <tr> <td> 2 </td> <td> Kitkat </td> <td> Rs.20 </td>  </tr>
+            </table>
+        </div>
+        <script src="buttonsfortable.js"></script>
+    </body>
+        <!-- <img src="nature.jpg" width="300" height="300" > -->
+       
 </html>
