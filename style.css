@@ -1,0 +1,14 @@
+
+table {
+    border: 1px solid black;
+  } 
+  
+  th,td {
+    border: 1px solid black;
+  }
+  
+  table.chocolates {
+    table-layout: auto auto auto;
+    width: 400px;  
+  }
+  
