@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>Alternate table rows styles</title>
+    <style>
+         tbody tr:nth-child(odd){
+                background-color: orange;
+                color: black;
+                font-weight: bold;
+            }
+            tbody tr:nth-child(even){
+                background-color: cadetblue;
+                color: black;
+                font-weight: bold;
+            }
+            th,td{
+                border: 1px solid black;
+                padding: 10px;
+            }
+    </style>
+    <body>
+        <table>
+            <tr>
+                <th>studentName</th>
+                <th>age</th>
+                <th>bloodgroup</th>
+            </tr>
+            <tr>
+                <td>aaa</td>
+                <td>16</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>bbb</td>
+                <td>17</td>
+                <td>O+</td>
+            </tr>
+            <tr>
+                <td>ccc</td>
+                <td>19</td>
+                <td>AB+</td>
+            </tr>
+            <tr>
+                <td>ddd</td>
+                <td>15</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>eee</td>
+                <td>16</td>
+                <td>B-</td>
+            </tr>
+            <tr>
+                <td>fff</td>
+                <td>18</td>
+                <td>O-</td>
+            </tr>
+            <tr>
+                <td>ggg</td>
+                <td>16</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>hhh</td>
+                <td>14</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>iii</td>
+                <td>17</td>
+                <td>A-</td>
+            </tr>
+            <tr>
+                <td>jjj</td>
+                <td>19</td>
+                <td>O-</td>
+            </tr>
+            <tr>
+                <td>kkk</td>
+                <td>15</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>lll</td>
+                <td>18</td>
+                <td>B+</td>
+            </tr>
+        </table>
+    </body>
+</html>
